@@ -1,0 +1,405 @@
+{
+    "language": "Kcirna",
+    "rules": [
+        {
+            "name": "ShortVowel",
+            "id": "db2589fa196",
+            "terminalOnly": true,
+            "patterns": [
+                {
+                    "pattern": "a",
+                    "id": "b2589fa196a",
+                    "weight": 1
+                },
+                {
+                    "pattern": "e",
+                    "id": "2589fa196a1",
+                    "weight": 1
+                },
+                {
+                    "pattern": "i",
+                    "id": "589fa196a1b",
+                    "weight": 1
+                },
+                {
+                    "pattern": "o",
+                    "id": "89fa196a1b3",
+                    "weight": 1
+                },
+                {
+                    "pattern": "u",
+                    "id": "9fa196a1b3e",
+                    "weight": 1
+                }
+            ],
+            "rewrites": [],
+            "showRewrites": false,
+            "exclusions": [],
+            "showExclusions": false,
+            "collapsed": false
+        },
+        {
+            "id": "8957651629f",
+            "name": "LongVowel",
+            "patterns": [
+                {
+                    "id": "957651629fd",
+                    "pattern": "aa",
+                    "weight": 1
+                },
+                {
+                    "id": "57651629fdb",
+                    "pattern": "ee",
+                    "weight": 1
+                },
+                {
+                    "id": "7651629fdb2",
+                    "pattern": "ii",
+                    "weight": 1
+                },
+                {
+                    "id": "651629fdb2c",
+                    "pattern": "oo",
+                    "weight": 1
+                },
+                {
+                    "id": "51629fdb2c2",
+                    "pattern": "uu",
+                    "weight": 1
+                }
+            ],
+            "rewrites": [],
+            "exclusions": [],
+            "terminalOnly": true,
+            "showRewrites": false,
+            "showExclusions": false,
+            "collapsed": false
+        },
+        {
+            "name": "Consonant",
+            "id": "fa196a1b3ea",
+            "terminalOnly": true,
+            "patterns": [
+                {
+                    "pattern": "p",
+                    "id": "a196a1b3ea3",
+                    "weight": 1
+                },
+                {
+                    "pattern": "t",
+                    "id": "196a1b3ea37",
+                    "weight": 1
+                },
+                {
+                    "pattern": "k",
+                    "id": "96a1b3ea378",
+                    "weight": 1
+                },
+                {
+                    "pattern": "s",
+                    "id": "6a1b3ea3784",
+                    "weight": 1
+                },
+                {
+                    "id": "d29ab441700",
+                    "pattern": "c",
+                    "weight": 1
+                },
+                {
+                    "id": "29ab4417004",
+                    "pattern": "x",
+                    "weight": 1
+                },
+                {
+                    "id": "9ab44170049",
+                    "pattern": "h",
+                    "weight": 1
+                },
+                {
+                    "id": "ab44170049d",
+                    "pattern": "m",
+                    "weight": 1
+                },
+                {
+                    "id": "b44170049d7",
+                    "pattern": "n",
+                    "weight": 1
+                },
+                {
+                    "id": "44170049d79",
+                    "pattern": "v",
+                    "weight": 1
+                },
+                {
+                    "id": "4170049d794",
+                    "pattern": "l",
+                    "weight": 1
+                },
+                {
+                    "id": "170049d794c",
+                    "pattern": "r",
+                    "weight": 1
+                },
+                {
+                    "id": "70049d794c1",
+                    "pattern": "j",
+                    "weight": 1
+                }
+            ],
+            "rewrites": [],
+            "showRewrites": false,
+            "exclusions": [],
+            "showExclusions": false,
+            "collapsed": false
+        },
+        {
+            "id": "0049d794c12",
+            "name": "Cluster",
+            "patterns": [
+                {
+                    "id": "049d794c12a",
+                    "pattern": "pr",
+                    "weight": 1
+                },
+                {
+                    "id": "49d794c12a7",
+                    "pattern": "tr",
+                    "weight": 1
+                },
+                {
+                    "id": "9d794c12a78",
+                    "pattern": "kr",
+                    "weight": 1
+                },
+                {
+                    "id": "d794c12a782",
+                    "pattern": "kl",
+                    "weight": 1
+                },
+                {
+                    "id": "794c12a7827",
+                    "pattern": "pl",
+                    "weight": 1
+                },
+                {
+                    "id": "94c12a78270",
+                    "pattern": "tl",
+                    "weight": 1
+                },
+                {
+                    "id": "4c12a782704",
+                    "pattern": "tp",
+                    "weight": 1
+                },
+                {
+                    "id": "c12a7827044",
+                    "pattern": "pt",
+                    "weight": 1
+                },
+                {
+                    "id": "12a78270444",
+                    "pattern": "tk",
+                    "weight": 1
+                },
+                {
+                    "id": "2a782704446",
+                    "pattern": "kt",
+                    "weight": 1
+                },
+                {
+                    "id": "a782704446e",
+                    "pattern": "sp",
+                    "weight": 1
+                },
+                {
+                    "id": "782704446e7",
+                    "pattern": "st",
+                    "weight": 1
+                },
+                {
+                    "id": "82704446e77",
+                    "pattern": "ck",
+                    "weight": 1
+                },
+                {
+                    "id": "2704446e77e",
+                    "pattern": "cx",
+                    "weight": 1
+                },
+                {
+                    "id": "704446e77e4",
+                    "pattern": "ks",
+                    "weight": 1
+                },
+                {
+                    "id": "04446e77e40",
+                    "pattern": "kc",
+                    "weight": 1
+                },
+                {
+                    "id": "4446e77e40e",
+                    "pattern": "ps",
+                    "weight": 1
+                },
+                {
+                    "id": "446e77e40e3",
+                    "pattern": "pc",
+                    "weight": 1
+                },
+                {
+                    "id": "46e77e40e36",
+                    "pattern": "pn",
+                    "weight": 1
+                },
+                {
+                    "id": "6e77e40e365",
+                    "pattern": "tm",
+                    "weight": 1
+                },
+                {
+                    "id": "e77e40e365b",
+                    "pattern": "kn",
+                    "weight": 1
+                },
+                {
+                    "id": "77e40e365b0",
+                    "pattern": "mn",
+                    "weight": 1
+                },
+                {
+                    "id": "7e40e365b0f",
+                    "pattern": "mr",
+                    "weight": 1
+                },
+                {
+                    "id": "e40e365b0f6",
+                    "pattern": "vt",
+                    "weight": 1
+                },
+                {
+                    "id": "40e365b0f61",
+                    "pattern": "vn",
+                    "weight": 1
+                },
+                {
+                    "id": "0e365b0f61f",
+                    "pattern": "vr",
+                    "weight": 1
+                },
+                {
+                    "id": "e365b0f61f0",
+                    "pattern": "vl",
+                    "weight": 1
+                },
+                {
+                    "id": "365b0f61f03",
+                    "pattern": "xt",
+                    "weight": 1
+                },
+                {
+                    "id": "65b0f61f038",
+                    "pattern": "xr",
+                    "weight": 1
+                },
+                {
+                    "id": "5b0f61f0389",
+                    "pattern": "xl",
+                    "weight": 1
+                },
+                {
+                    "id": "b0f61f03895",
+                    "pattern": "xn",
+                    "weight": 1
+                },
+                {
+                    "id": "0f61f038957",
+                    "pattern": "cr",
+                    "weight": 1
+                },
+                {
+                    "id": "f61f0389576",
+                    "pattern": "tc",
+                    "weight": 1
+                },
+                {
+                    "id": "61f03895765",
+                    "pattern": "ct",
+                    "weight": 1
+                }
+            ],
+            "rewrites": [],
+            "exclusions": [],
+            "terminalOnly": true,
+            "showRewrites": false,
+            "showExclusions": false,
+            "collapsed": false
+        },
+        {
+            "name": "Syllable",
+            "id": "a3784a6d033",
+            "terminalOnly": false,
+            "patterns": [
+                {
+                    "pattern": "Consonant.ShortVowel.(Consonant)",
+                    "id": "3784a6d0337",
+                    "weight": 8
+                },
+                {
+                    "id": "f0389576516",
+                    "pattern": "Consonant.'aj'",
+                    "weight": 2
+                },
+                {
+                    "id": "03895765162",
+                    "pattern": "Cluster.ShortVowel.(Consonant)",
+                    "weight": 4
+                },
+                {
+                    "id": "38957651629",
+                    "pattern": "Cluster.'aj'",
+                    "weight": 1
+                },
+                {
+                    "id": "629fdb2c206",
+                    "pattern": "Consonant.LongVowel.(Consonant)",
+                    "weight": 2
+                },
+                {
+                    "id": "29fdb2c2066",
+                    "pattern": "Cluster.LongVowel",
+                    "weight": 1
+                }
+            ],
+            "rewrites": [],
+            "showRewrites": false,
+            "exclusions": [],
+            "showExclusions": false,
+            "collapsed": false
+        },
+        {
+            "name": "Word",
+            "id": "784a6d03379",
+            "terminalOnly": false,
+            "patterns": [
+                {
+                    "pattern": "Syllable.Syllable",
+                    "id": "84a6d033790",
+                    "weight": 1
+                },
+                {
+                    "id": "1f038957651",
+                    "pattern": "Syllable",
+                    "weight": 3
+                }
+            ],
+            "rewrites": [],
+            "showRewrites": false,
+            "exclusions": [],
+            "showExclusions": false,
+            "collapsed": false
+        }
+    ],
+    "root": "Word",
+    "enableWeights": true,
+    "enableSerif": false
+}

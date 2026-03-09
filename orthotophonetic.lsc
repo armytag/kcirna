@@ -1,0 +1,74 @@
+Feature type(*cons, vowel)
+Feature front, back
+Feature height(low, mid, high)
+Feature place(labial, alveolar, palatal, velar, uvular, glottal)
+Feature manner(nasal, stop, fricative, liquid)
+Feature +sibilant
+Feature +lateral
+Feature +long
+Feature (syllable) +heavy
+Feature (syllable) +stress
+Diacritic ː (floating) [+long]
+Diacritic " (floating) [+heavy]
+Diacritic ˈ (before) [+stress]
+Symbol a [low  -front -back vowel]
+Symbol e [mid  +front -back vowel]
+Symbol i [high +front -back vowel]
+Symbol o [mid  -front +back vowel]
+Symbol u [high -front +back vowel]
+Symbol p [labial stop]
+Symbol t [alveolar stop]
+Symbol k [velar stop]
+Symbol q [uvular stop]
+Symbol ʔ [glottal stop]
+Symbol s [alveolar fricative +sibilant]
+Symbol θ [alveolar fricative]
+Symbol ʃ [palatal fricative +sibilant]
+Symbol x [velar fricative]
+Symbol χ [uvular fricative]
+Symbol h [glottal fricative]
+Symbol m [labial nasal]
+Symbol n [alveolar nasal]
+Symbol ŋ [velar nasal]
+Symbol ɴ [uvular nasal]
+Symbol ʋ [labial liquid]
+Symbol l [alveolar liquid +lateral]
+Symbol r [alveolar liquid]
+Symbol j [palatal liquid]
+
+ortho-to-phonetic:
+{v, c, x, '} => {ʋ, ʃ, χ, ʔ}
+Then: [vowel]$1 * $1 => $1 ʔ $1 / _ [cons] {$, [cons] [cons]}
+Then: [-long]$1 $1 => [+long] *
+
+Syllables:
+[cons]? [vowel -long]
+[cons]? {[vowel -long] [cons -long], [vowel +long]} => [+heavy]
+{p r, t r, k r, p l, t l, k l, t p, p t, t k, k t, s p, s t, ʃ k, ʃ q, ʃ χ, k s, k ʃ, p s, p ʃ, p n, t m, k n, m n, m r, ʋ t, ʋ n, ʋ r, ʋ l, χ t, χ r, χ l, χ n } [vowel -long] => [-heavy] / {$, [cons], [vowel +long]} _
+{p r, t r, k r, p l, t l, k l, t p, p t, t k, k t, s p, s t, ʃ k, ʃ q, ʃ χ, k s, k ʃ, p s, p ʃ, p n, t m, k n, m n, m r, ʋ t, ʋ n, ʋ r, ʋ l, χ t, χ r, χ l, χ n } {[vowel -long] [cons], [vowel +long]} => [+heavy] / {$, [cons], [vowel +long]} _
+s {s}* / $ _ $
+l / $ _ $
+
+add-stress:
+<syl>&[+heavy] => [+stress] / _ [-heavy]* $
+<syl>&[-heavy] => [+stress] / $ _ [-heavy]* $
+
+Syllables:
+[cons]? {[vowel -long] [cons -long]?, [vowel +long]} => [-heavy]
+{p r, t r, k r, p l, t l, k l, t p, p t, t k, k t, s p, s t, ʃ k, ʃ q, ʃ χ, k s, k ʃ, p s, p ʃ, p n, t m, k n, m n, m r, ʋ t, ʋ n, ʋ r, ʋ l, χ t, χ r, χ l, χ n } {[vowel -long] [cons]?, [vowel +long]} => [-heavy] / {$, [cons], [vowel +long]} _
+s {s}* / $ _ $
+l / $ _ $
+
+uvular-fricative-allophony:
+χ χ * => q q χ
+Else: χ => q / [cons] _
+
+sibilant-restrictions:
+s => ʃ / _ {i, k, χ}
+
+postalveolar-nasals:
+n k => ŋ k
+n χ => ɴ q
+
+coda-stop-lenition:
+{p, t, k} => {h, θ, x} / [vowel] _ {$, [cons]}
