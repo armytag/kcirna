@@ -127,3 +127,53 @@
   ]
 ]
 
+#align(center)[
+  #tablem(align: center + horizon)[
+    | Demonstrative | Proximal | Distal | Unseen |
+    | :-----------: | :------: | :----: | :----: |
+    | Above         | at       | am     | vaj    |
+    | Equal         | klet     | klem   | ^      |
+    | Below         | sut      | sum    | ^      |
+  ]
+]
+
+= Verbs
+
+== Copula
+#align(center)[
+  #tablem(align: center + horizon)[
+    | Person | PRES   | PST      | IRR     |
+    | :----: | :----: | :------: | :-----: |
+    | 1SG    | =ti    | =(i)sti  | =arti   |
+    | 2SG    | =ka    | =(i)cka  | =arka   |
+    | 3SG    | =(i)t  | =(i)c    | =ar     |
+    | 1DU    | =les   | =(u)lles | =lares  |
+    | 2DU    | =lok   | =(u)llok | =larok  |
+    | 3DU    | =lam   | =kas     | =karas  |
+    | 1PL    | =ton   | =(u)nton | =taron  |
+    | 2PL    | =takot | =(u)nkot | =tarkot |
+    | 3PL    | =tos   | =nas     | =taros  |
+  ]
+]
+
+#align(center)[
+  #tablem(align: center + horizon)[
+    | Person | Agent SG | Agent DU | Agent PL |
+    | :----: | :------: | :------: | :------: |
+    | 1      | ta-      | tur-     | xen-     |
+    | 2      | ki-      | mrur-    | mren-    |
+    | 3      | ci-      | ckur-    | spen-    |
+    | 1>2    | tme-     | toren-   | tomni-   |
+  ]
+]
+
+#align(center)[
+  #tablem(align: center + horizon)[
+    | Person | Agent SG | Agent DU | Agent PL | Object SG | Object DU | Object PL |
+    | :----: | :------: | :------: | :------: | :-------: | :-------: | :-------: |
+    | 1      | ta-      | tur-     | xen-     | tom-      | hur-      | hin-      |
+    | 2      | ki-      | mrur-    | mren-    | kci-      | kcur-     | kcen-     |
+    | 1>2    | tme-     | toren-   | tomni-   |           |           |           |
+  ]
+]
+
