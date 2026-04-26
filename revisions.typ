@@ -1,4 +1,5 @@
 #import "@preview/tablem:0.3.0": tablem
+#import "@preview/tdtr:0.5.0": tidy-tree-graph
 
 #set page(
   paper: "a4",
@@ -139,6 +140,14 @@
 
 = Verbs
 
+== General Thoughts
+=== Like
+- Participles
+- Copular clitics
+=== Dislike
+- Huge verb template
+- Too many agreement forms
+
 == Copula
 #align(center)[
   #tablem(align: center + horizon)[
@@ -156,6 +165,7 @@
   ]
 ]
 
+== Perfective Prefixes
 #align(center)[
   #tablem(align: center + horizon)[
     | Person | Agent SG | Agent DU | Agent PL |
@@ -177,3 +187,49 @@
   ]
 ]
 
+== Verb Template
+#align(center)[
+  #tablem(align: center + horizon)[
+    | -2         | -1                       | 0     | 1                       | 2             | 3               | 4      |
+    | :--------: | :----------------------: | :---: | :---------------------: | :-----------: | :-------------: | :----: |
+    | Perfective | Directional              | Root  | Causative / Applicative | Medio-passive | TAM             | Copula |
+    | ^          | Body Part                | ^     | ^                       | ^             | Participle      | ^      |
+    | Case       | Abstract Nominal-ization | ^     | ^                       | ^             | Nominal-ization | ^      |
+    | ^          | ^                        | ^     | ^                       | ^             | ^               | Case   |
+  ]
+]
+
+#align(center)[ #tidy-tree-graph(json("verb_template.json")) ]
+
+- Perfective
+  - Preterite
+  - Future
+  - Subjunctive
+  - Imperative (lacks agreement prefix)
+  - #strike[Optative]
+- Copula
+  - Present
+  - Past
+  - Irrealis
+- Participle
+  - Stative
+  - Progressive
+  - Habitual
+  - #strike[Potential]
+  - Antipassive
+- Nominalization
+  - Abstract/General
+  - Locative
+  - Temporal
+    - _oan-vi-re xtaj_ "Fly until you die"
+  - Agent
+  - Deverbal (one instance of the verb occuring)
+- Converbs
+  - Benefactive
+  - Ablative/Allative
+  - Instrumental
+  - Locative
+  - Consecutive
+  - Despite
+  - Conditional
+  - Infinitive
