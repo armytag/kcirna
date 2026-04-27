@@ -177,6 +177,7 @@ _\[trup-re ka-ku xtaj-xam-lat\] ta-ana_ "I sang while flying to you."
 == Recommendations
 + Remove Causative, Applicative, and Mediopassive
 + Remove Optative
++ Clarify/simplify relative clauses and subordinate clauses
 
 == Ideas
 + Move Subjunctive and Irrealis to separate marking
