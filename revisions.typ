@@ -162,6 +162,7 @@ _trup-lat kciru-ku xtaj-xam=ti_ "I am flying where a dragon is." (lit. I am flyi
 - Too many agreement forms
 
 == Recommendations
++ Remove Causative, Applicative, and Mediopassive
 + Remove Optative
 
 == Ideas
@@ -220,16 +221,26 @@ _trup-lat kciru-ku xtaj-xam=ti_ "I am flying where a dragon is." (lit. I am flyi
 
 #align(center)[ #tidy-tree-graph(json("verb_template.json")) ]
 
+#align(center)[
+  #tablem(align: center + horizon)[
+    | -1         | 0     | 1              | 2      |
+    | :--------: | :---: | :------------: | :----: |
+    | Perfective | Root  | TAM            |        |
+    | Case       | ^     | Participle     | Copula |
+    | ^          | ^     | Nominalization | Case   |
+  ]
+]
+
 - Perfective
   - Preterite
   - Future
-  - Subjunctive →
+  - #strike[Subjunctive] →
   - Imperative (lacks agreement prefix)
   - #strike[Optative]
 - Copula
   - Present
   - Past
-  - Irrealis →
+  - #strike[Irrealis] →
 - Participle
   - Stative
   - Progressive
