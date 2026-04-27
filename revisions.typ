@@ -116,15 +116,15 @@
     | Pertingent     | -lat         | ^             | ^            |
   ] ]
   #block(breakable: false)[ #tablem(align: center + horizon)[
-    | *Animate*   | <     | *Inanimate* | <       | *Common Meaning*          |
-    | :---------: | :---: | :---: | :-----------: | :-----------------------: |
-    | Ergative    | m(ʌ)- | ɦ(a)- | Instrumental  | Means of verb occuring    |
-    | Absolutive  | ∅     | <     | Absolutive    | Affected by verb          |
-    | Genitive    | -kɯ   | <     | Genitive      | Related to head noun      |
-    | Commitative | -lat  | <     | Locative      | Near to, in vicinity of   |
-    | Dative      | -re   | <     | Allative      | Destination, oriented to  |
-    | Causal      | -nan  | <     | Ablative      | Origin, oriented from     |
-    | Benefactive | -(ʌ)r |       |               | For the benefit of        |
+    | *Animate*   | <     | *Inanimate* | <       | *Common Meaning*           |
+    | :---------: | :---: | :---: | :-----------: | :------------------------: |
+    | Ergative    | m(ʌ)- | ɦ(a)- | Instrumental  | _means of verb occuring_   |
+    | Absolutive  | ∅     | <     | Absolutive    | _affected by verb_         |
+    | Genitive    | -kɯ   | <     | Genitive      | _related to head noun_     |
+    | Commitative | -lat  | <     | Locative      | _near to, in vicinity of_  |
+    | Dative      | -re   | <     | Allative      | _destination, oriented to_ |
+    | Causal      | -nan  | <     | Ablative      | _origin, oriented from_    |
+    | Benefactive | -(ʌ)r |       |               | _for the benefit of_       |
   ] ]
 ]
 
