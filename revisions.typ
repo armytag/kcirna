@@ -3,12 +3,12 @@
 
 #set page(
   paper: "a4",
-  margin: (inside: 1.5in, outside: 1in, y: 1in)
+  margin: 1in
 )
 #set text(font: "Noto Sans", size: 12pt)
 #set align(left)
-#set document(title: [Kcirna Revision (to Middle Kcirna)])
-#show title: set text(size: 17pt)
+#set document(title: [Kcirna Revision (to Modern Kcirna)])
+#show title: set text(size: 24pt)
 #show title: set align(center)
 #show title: set block(below: 1.2em)
 
@@ -26,7 +26,7 @@
 ] ]
 
 === Sound Changes
-- ʋ l → h ʟ
+- ʋ l → ɦ ʟ
 - *or*
 - ʋ l m p h → j ʟ ɲ tʃ χ
 
@@ -36,7 +36,7 @@
     | Nasals      | m          | n          |           |          |           |
     | Plosives    | p          | t          |           | k        |           |
     | Fricatives  |            | s          | ʃ         | χ        | h         |
-    | Liquid      |            | r          | j         | ʟ        |           |
+    | Liquid      |            | r          | j         | ʟ        | ɦ         |
 ] ]
 #align(center)[ *or* ]
 #align(center)[ #tablem[
@@ -77,6 +77,14 @@
 
 = Nouns
 
+== Recommendations
++ Reduce all the positional cases (aside form Allative and Ablative) into a single Locative case
++ Remove paucal number
+
+== Ideas
++ Make certain cases specific to animate vs inanimate nouns
++ Remove collective number
+
 == Cases
 
 #align(center)[
@@ -97,16 +105,21 @@
   //   | Pertingent     | -lat         | ^             | ^            |
   // ]
   #tablem(align: center + horizon)[
-    | *Animate*   | <     | *Inanimate* | <       |
-    | :---------: | :---: | :---: | :----------:  |
-    | Ergative    | m(ʌ)- | h(a)- | Instrumental  |
-    | Absolutive  | ∅     | <     | Absolutive    |
-    | Genitive    | -kɯ   | <     | Genitive      |
-    | Commitative | -lat  | <     | Locative      |
-    | Benefactive | -re   | <     | Allative      |
-    | Comparative | -nan  | <     | Ablative      |
+    | *Animate*   | <     | *Inanimate* | <       | *Common Meaning*          |
+    | :---------: | :---: | :---: | :-----------: | :-----------------------: |
+    | Ergative    | m(ʌ)- | ɦ(a)- | Instrumental  | Means of verb occuring    |
+    | Absolutive  | ∅     | <     | Absolutive    | Affected by verb          |
+    | Genitive    | -kɯ   | <     | Genitive      | Related to head noun      |
+    | Dative      | -re   | <     | Allative      | Destination, oriented to  |
+    | Benefactive | -nan  | <     | Ablative      | Origin, oriented from     |
+    | Commitative | -lat  | <     | Locative      | Existing in same vicinity |
   ]
 ]
+
+_kciru-lat xtaj-xam=ti_ "I am flying with a dragon."
+
+_trup-lat kciru-ku xtaj-xam=ti_ "I am flying where a dragon is." (lit. I am flying at a dragon's location)
+
 
 == Number
 
@@ -147,6 +160,12 @@
 === Dislike
 - Huge verb template
 - Too many agreement forms
+
+== Recommendations
++ Remove Optative
+
+== Ideas
++ Move Subjunctive and Irrealis to separate marking
 
 == Copula
 #align(center)[
@@ -204,13 +223,13 @@
 - Perfective
   - Preterite
   - Future
-  - Subjunctive
+  - Subjunctive →
   - Imperative (lacks agreement prefix)
   - #strike[Optative]
 - Copula
   - Present
   - Past
-  - Irrealis
+  - Irrealis →
 - Participle
   - Stative
   - Progressive
