@@ -266,3 +266,9 @@ _\[trup-re ka-ku xtaj-xam-lat\] ta-ana_ "I sang while flying to you."
   - Despite
   - Conditional
   - Infinitive
+
+= Syntax
+
+_luh cinenku tom mruxam_ "The man I saw went home"
+
+_luh cinenku mossan ti mruxam_ "The man who saw me went home"
