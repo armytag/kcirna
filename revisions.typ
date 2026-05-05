@@ -103,10 +103,10 @@
     | *CLASSIC CASE* | <            | *Modern Case* | <            |
     | :------------: | :----------: | :----------:  | :----------: |
     | Absolutive     | ∅ (no affix) | Absolutive    | ∅ (no affix) |
-    | Ergative       | m(o)-        | Ergative      | m(ʌ)-        |
+    | Ergative       | m(o)-        | Ergative      | m(o)-        |
     | Instrumental   | v(a)-        | Instrumental  | h(a)-        |
-    | Genitive       | -ku          | Genitive      | -kɯ          |
-    | Benefactive    | -(o)r        | Benefactive   | -(ʌ)r        |
+    | Genitive       | -ku          | Genitive      | -ku          |
+    | Benefactive    | -(o)r        | Benefactive   | -(o)r        |
     | Allative       | -re          | Allative      | -re          |
     | Ablative       | -nan         | Ablative      | -nan         |
     | Superessive    | -run         | Locative      | -lat         |
@@ -118,13 +118,13 @@
   #block(breakable: false)[ #tablem(align: center + horizon)[
     | *Animate*   | <     | *Inanimate* | <       | *Common Meaning*           |
     | :---------: | :---: | :---: | :-----------: | :------------------------: |
-    | Ergative    | m(ʌ)- | ɦ(a)- | Instrumental  | _means of verb occuring_   |
+    | Ergative    | m(o)- | v(a)- | Instrumental  | _means of verb occuring_   |
     | Absolutive  | ∅     | <     | Absolutive    | _affected by verb_         |
-    | Genitive    | -kɯ   | <     | Genitive      | _related to head noun_     |
+    | Genitive    | -ku   | <     | Genitive      | _related to head noun_     |
     | Commitative | -lat  | <     | Locative      | _near to, in vicinity of_  |
     | Dative      | -re   | <     | Allative      | _destination, oriented to_ |
     | Causal      | -nan  | <     | Ablative      | _origin, oriented from_    |
-    | Benefactive | -(ʌ)r |       |               | _for the benefit of_       |
+    | Benefactive | -(o)r |       |               | _for the benefit of_       |
   ] ]
 ]
 
